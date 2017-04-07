@@ -1,4 +1,7 @@
-import Age from './common/actions/ActionBase';
+import common from './common';
+// import twoD from './twoD';
 
-const age = new Age();
-console.log(age);
+module.exports = {
+  common,
+  // twoD,
+};
