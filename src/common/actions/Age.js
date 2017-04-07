@@ -15,6 +15,7 @@ export default class Age extends ActionBase {
    * @see org.flintparticles.common.emitters.Emitter#addAction()
    */
   constructor(easing) {
+    super();
     if ( easing == null ) {
       this._easing = Linear.easeNone;
     } else {
