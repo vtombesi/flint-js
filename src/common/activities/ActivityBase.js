@@ -1,12 +1,13 @@
-export default class ActionBase {
+import Activity from './Activity';
+
+export default class ActivityBase extends Activity {
   constructor() {
-    this._priority = 0;
+    super();
   }
 
   get priority() {
     return this._priority;
   }
-
   set priority(value) {
     this._priority = value;
   }
@@ -17,6 +18,9 @@ export default class ActionBase {
   removedFromEmitter(emitter) {
   }
 
-  update(emitter, particle, time) {
+  initialize(emitter) {
+  }
+
+  update(emitter, time) {
   }
 }

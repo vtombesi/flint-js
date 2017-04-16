@@ -11,5 +11,5 @@ module.exports = {
   Circular,
   Cubic,
   Elastic,
-  Linear
-}
+  Linear,
+};

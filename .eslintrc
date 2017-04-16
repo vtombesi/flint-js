@@ -11,10 +11,17 @@
     "max-len": "off",
     "no-param-reassign": "off",
     "no-unused-variable": "off",
-    "no-unused-expressions": ["error", {"allowShortCircuit": true} ]
+    "no-unused-expressions": ["error", {"allowShortCircuit": true} ],
+    "no-unused-vars": "off",
+    "no-mixed-operators": "off",
+    "no-else-return": "off",
+    "no-restricted-properties": "off",
   },
   "globals": {
     "window": true,
     "document": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2016
   }
 }

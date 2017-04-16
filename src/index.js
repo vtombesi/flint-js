@@ -1,7 +1,9 @@
 import common from './common';
 // import twoD from './twoD';
 
-module.exports = {
+const FlintJS = {
   common,
   // twoD,
 };
+
+export default FlintJS;

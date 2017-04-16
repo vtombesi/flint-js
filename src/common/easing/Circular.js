@@ -8,7 +8,7 @@ export default class Circular {
   }
 
   static easeInOut(t, b, c, d) {
-    if ((t /= d * 0.5) < 1) {
+    if ((t === t / d * 0.5) < 1) {
       return -c * 0.5 * (Math.sqrt(1 - t * t) - 1) + b;
     }
     return c * 0.5 * (Math.sqrt(1 - (t -= 2) * t) + 1) + b;

@@ -21,7 +21,7 @@ module.exports = {
 
     output: {
         path: path.resolve('dist'),
-        filename: "flint.js"
+        filename: "flintjs.min.js"
     },
 
     plugins: [

@@ -1,9 +1,10 @@
 import actions from './actions';
+import activities from './activities';
 import easing from './easing';
 
 module.exports = {
   actions,
-  // activities,
+  activities,
   // behaviours,
   // counters,
   // debug,
