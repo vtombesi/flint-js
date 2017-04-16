@@ -5,7 +5,7 @@ import easing from './easing';
 module.exports = {
   actions,
   activities,
-  // behaviours,
+  behaviours,
   // counters,
   // debug,
   // displayObjects,

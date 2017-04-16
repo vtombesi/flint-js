@@ -19,12 +19,12 @@ export default class Fade extends ActionBase {
     return this._endAlpha;
   }
   set endAlpha(value) {
-    this._diffAlpha = _endAlpha + this._diffAlpha - value;
+    this._diffAlpha = this._endAlpha + this._diffAlpha - value;
     this._endAlpha = value;
   }
 
   update(emitter, particle, time) {
-    var alpha = this._endAlpha + this._diffAlpha * particle.energy;
+    const alpha = this._endAlpha + this._diffAlpha * particle.energy;
     particle.color = (particle.color & 0xFFFFFF) | (Math.round(alpha * 255) << 24);
   }
 }
