@@ -1,9 +1,9 @@
 import common from './common';
-// import twoD from './twoD';
+import twoD from './twoD';
 
 const FlintJS = {
   common,
-  // twoD,
+  twoD,
 };
 
 export default FlintJS;

@@ -1,7 +1,7 @@
 export default class Counter {
-  startEmitter( emitter ) {}
+  startEmitter(emitter) {}
 
-  updateEmitter( emitter, time ) {}
+  updateEmitter(emitter, time) {}
 
   stop() {}
 

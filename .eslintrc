@@ -16,6 +16,7 @@
     "no-mixed-operators": "off",
     "no-else-return": "off",
     "no-restricted-properties": "off",
+    "no-empty-function": "off",
   },
   "globals": {
     "window": true,
